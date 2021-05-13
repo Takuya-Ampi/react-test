@@ -4,7 +4,7 @@ const App = () => {
   return (
     <>
       <h1>Hello</h1>
-      <p>change commit</p>
+      <p>拡張子変更</p>
     </>
   );
 };
