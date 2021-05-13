@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import ColorfulMessage from "./components/ColorfulMessage";
+import { ColorfulMessage } from "./components/ColorfulMessage";
 
 const App = () => {
   const [num, setNum] = useState(0);
-  const [showFlag, setShowFlag] = useState(true);
+  const [showFlag, setShowFlag] = useState(false);
   const onClickCountUp = () => {
     setNum(num + 1);
   };
